@@ -5,7 +5,7 @@ from django.http import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.views.generic import ListView
 
-from .forms import URLForm2
+from .forms import URLForm
 from .models import URLAlias, TestURLAlias, Visitas_ind
 import nanoid
 
