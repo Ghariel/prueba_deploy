@@ -1,0 +1,1 @@
+web: gunicorn bitlyclone.wsgi --log-file -
